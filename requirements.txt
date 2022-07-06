@@ -1,0 +1,17 @@
+Pyrogram==2.0.30
+requests
+tgcrypto
+pymongo[srv]
+python-dotenv
+bs4
+APScheduler
+cachetools==5.2.0
+certifi
+chardet
+idna
+python-telegram-bot
+pytz
+six
+tornado
+tzlocal
+urllib3
