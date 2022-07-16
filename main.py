@@ -29,8 +29,7 @@ def start(update: Update, context: CallbackContext):
 
 
 def help(update: Update, context: CallbackContext):
-    update.message \
-        .reply_text('Try /search <tiktok link>\nIf you have any queries contact -> ', OWNER)
+    update.message.reply_text(f"Try /search <tiktok link>\nIf you have any queries contact -> {OWNER}")
 
 
 def error(update, context):
@@ -85,7 +84,7 @@ def search(update: Update, context: CallbackContext):
 
 def send_link(update, context, link):
     update.message \
-        .reply_text(text=f"<a href='{link}'>Click</a> to download", parse_mode=ParseMode.HTML)
+        .reply_text(text=f'<a href=\'{link}\'>Click</a> to download', parse_mode=ParseMode.HTML)
     update.message \
         .reply_text(text="Media is uploading ... ")
 
