@@ -30,8 +30,7 @@ def start(update: Update, context: CallbackContext):
 
 def help(update: Update, context: CallbackContext):
     update.message \
-        .reply_text('Try /search <tiktok link>\n',
-                    f'If you have any queries contact -> {OWNER}')
+        .reply_text(f'Try /search <tiktok link>\nIf you have any queries contact -> {OWNER}')
 
 
 def error(update, context):
