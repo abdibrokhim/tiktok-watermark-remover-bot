@@ -1,11 +1,11 @@
-Pyrogram==2.0.30
+Pyrogram
 requests
 tgcrypto
 pymongo[srv]
 python-dotenv
 bs4
 APScheduler
-cachetools==5.2.0
+cachetools
 certifi
 chardet
 idna
