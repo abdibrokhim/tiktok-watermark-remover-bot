@@ -8,13 +8,13 @@ from telegram.update import Update
 from telegram import ParseMode
 
 
-TELEGRAM_BOT_TOKEN = ''
-RAPID_API_URL = ''
-RAPID_API_KEY = ''
-RAPID_API_HOST = ''
+TELEGRAM_BOT_TOKEN = '5558118981:AAHQ8YmW4Ip4ifpiFFipGH4E4brC_tKNF2U'
+RAPID_API_URL = 'https://tiktok-info.p.rapidapi.com/dl/'
+RAPID_API_KEY = 'e0ffcd909emsh1d42846ceac4f36p1278e0jsn4a987af97a26'
+RAPID_API_HOST = 'tiktok-info.p.rapidapi.com'
 FILE_PATH = 'videos/video.mp4'
 SOCIAL_NAME = 'tiktok'
-OWNER = ''
+OWNER = '@abdibrokhim'
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
