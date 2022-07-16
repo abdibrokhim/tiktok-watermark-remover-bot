@@ -2,7 +2,7 @@ import os
 import logging
 import time
 import requests
-from telegram.ext import Updater, CommandHandler, CallbackContext, MessageHandler
+from telegram.ext import (Updater, CommandHandler, CallbackContext, MessageHandler)
 from telegram.ext.filters import Filters
 from telegram.update import Update
 from telegram import ParseMode
@@ -29,7 +29,7 @@ def start(update: Update, context: CallbackContext):
 
 
 def help(update: Update, context: CallbackContext):
-    update.message.reply_text('Try /search <tiktok link>\nIf you have any queries contact ->')
+    update.message.reply_text('Try /search <tiktok link>\nIf you have any queries contact ->' + f'{OWNER}')
 
 
 def error(update, context):
