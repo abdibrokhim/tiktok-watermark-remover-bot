@@ -29,7 +29,7 @@ def start(update: Update, context: CallbackContext):
 
 
 def help(update: Update, context: CallbackContext):
-    update.message.reply_text('Try /search <tiktok link>\nIf you have any queries contact ->', f"{OWNER}")
+    update.message.reply_text('Try /search <tiktok link>\nIf you have any queries contact ->')
 
 
 def error(update, context):
