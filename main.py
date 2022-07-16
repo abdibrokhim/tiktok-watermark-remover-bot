@@ -84,7 +84,7 @@ def search(update: Update, context: CallbackContext):
 
 def send_link(update, context, link):
     update.message \
-        .reply_text(text=f'<a href=\'{link}\'>Click</a> to download', parse_mode=ParseMode.HTML)
+        .reply_text(text=link, parse_mode=ParseMode.HTML)
     update.message \
         .reply_text(text="Media is uploading ... ")
 
